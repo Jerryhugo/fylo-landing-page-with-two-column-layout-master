@@ -338,11 +338,13 @@ li a img {
   
     
     header {
-        display: flex;
+
+      display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
 
+   
     header img {
         width: inherit;
         align-self: center;
@@ -382,7 +384,7 @@ li a img {
     #features {
         background-image: url('images/bg-curve-desktop.svg');
         background-position: top;
-        padding-top: 100px;
+        padding-top: 50px;
          background-size: 100%;  
          background-repeat: no-repeat;  
     }
@@ -392,9 +394,7 @@ li a img {
 
     }
 
-    form button[type="submit"] {
-        width: 200px;
-    }
+  
 
     .footer-wrap {
         display: grid;
