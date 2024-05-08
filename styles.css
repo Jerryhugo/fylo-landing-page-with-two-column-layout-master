@@ -394,7 +394,9 @@ li a img {
 
     }
 
-  
+    form button[type="submit"] {
+        width: 200px;
+    }
 
     .footer-wrap {
         display: grid;
