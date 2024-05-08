@@ -433,6 +433,9 @@ li a img {
     }
 
 
+    .footer-logo {
+        filter: invert(70%);
+    }
 
 
 
