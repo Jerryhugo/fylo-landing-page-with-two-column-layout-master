@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+<!-- google fonts cnd Raleway -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<!-- google fonts cdn Open sans -->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<!-- fontawesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- personal css file -->
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="p-30 lg-px-80 ">
+    <img src="images/logo.svg" alt="logo icon" class="logo">
+    <div class="nav-links">
+      <a class="" href="">Features</a>
+      <a class="mx-10 lg-mx-40" href="">Team</a>
+      <a class="" href="">Sign In</a>
+    </div>
+   
+    
+  </nav>
+
+  <header class="my-100 px-30 lg-px-80">
+    <div class="illustrator lg-ml-40">
+      <img class="mb-50" src="images/illustration-1.svg" alt="header illustration image">
+    </div>
+    <divf class="lg-mr-40">
+      <h1>All your files in one secure location, accesible anywhere</h1>
+      <p>  Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.</p>
+      <form action="/" method="post">
+        <label for="email"></label>
+        <input class="my-10 p-10" type="email" placeholder="Enter your email">
+        <button class="my-10 p-10" type="submit">Get started</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" >
+      <div class="feature-wrap lg-px-80">
+        <div class="illustrator lg-ml-40">
+          <img src="images/illustration-2.svg" alt="Features illustration">
+        </div>
+        
+        <div class="my-50 lg-mr-40">
+          <h3 class="my-10">Stay productive, wherever you are</h3>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.
+          </p>
+          <p>  Securely share files and folders with friends, family and colleagues for 
+            live collaboration. No email attachments required!</p>
+                  
+        
+            <a href="" class="working my-20"> See how Fylo works <img src="images/icon-arrow.svg" alt="arrow icon"> </a>
+            
+          
+        
+          <div class="testimonial-card p-30 ">
+            <img id="quote"  src="images/icon-quotes.svg" alt="quote-icon">
+            <p>  Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="avatar">
+              <img src="images/avatar-testimonial.jpg" alt="">
+              <div class="sender-details">
+                <h5> Kyle Burton</h5>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+
+    <section id="subscription" class="px-30 py-50 lg-px-80">
+      <div class="lg-mr-40">
+        <h2>Get early access today</h2>
+        <p>  It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <form class="lg-ml-40" action="/" method="post">
+        <input  type="email" name="email" id="email">
+        <button  type="submit">Get Started For Free</button>
+      </form>
+    </section>
+  </main>
+  
+
+
+ 
+
+
+
+  
+
+  <footer class="py-50 px-30 lg-px-80">
+    <a class="footer-logo" href="#"><img src="images/logo.svg" alt="logo"></a>
+    <div class="footer-wrap">
+      <div class="mobile">
+      
+        <ul>
+          
+          <li><a href="#"><img src="images/icon-phone.svg" alt="phone icon">Phone: +1-543-123-4567</a></li>
+          <li><a href="#"><img src="images/icon-email.svg" alt="email icon">example@fylo.com</a></li>
+        </ul>
+      </div>
+      <div class="about">
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privary</a></li>
+        </ul>
+      </div>
+    
+  
+      <div class="footer-icons">
+        <i id="fb" class="fa-brands fa-facebook-f"></i>
+        <i id="twitter" class="fa-brands fa-twitter"></i>
+        <i id="insta" class="fa-brands fa-instagram"></i>
+      </div>
+      <!-- <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p> -->
+    
+    </div>
+      
+   
+  </footer>
+
+  <!-- fontawesome js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

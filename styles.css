@@ -1,0 +1,438 @@
+:root {
+    /*Primary colors  */
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+
+/* Accent colors */
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+
+/* Neutra colors */
+
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+
+--white: #fff;
+
+--bg-color: #f9f8ff;
+
+--green: #3EA08E;
+}
+.p-30 {
+    padding: 30px;
+}
+
+.px-30 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    max-width: 1920px;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+h1, h2, h3, a, button {
+    font-family: "Raleway", sans-serif;
+
+}
+h1 {
+    font-size: 1.7rem;
+    color: var(--Very-Dark-Blue);
+}
+a, p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Very-Dark-Blue);
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav img {
+    width: 100px;
+}
+.nav-links {
+    align-self: center;
+   
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.illustrator img {
+    width: 100%;
+    
+}
+form {
+    width: 100%;
+}
+
+input[type="email"] {
+    border: 1px solid var(--Light-Gray);
+}
+
+input[type="email"], button[type="submit"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: var(--Light-Gray);
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    background-color: var(--Bright-Blue);
+    color: white;
+    font-weight: 600;
+}
+
+.testimonial-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 2px 2px 50px rgb(231, 231, 231), -2px -2px 50px rgb(231, 231, 231);
+   margin: 40px 20px;
+}
+
+.testimonial-card p {
+    font-size: 12px;
+}
+
+a.working {
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
+    padding: 10px 0;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.working img {
+    vertical-align: text-bottom;
+    width: 20px;
+    height: 20px;
+}
+
+
+.avatar img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+
+.avatar p, .avatar h5 {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.avatar p:nth-child(1){
+    color: var(--Light-Grayish-Blue);
+}
+
+#quote {
+    text-align: start;
+}
+
+.feature-wrap {
+    background-color: var(--bg-color);
+    padding: 50px 20px;
+}
+
+
+#subscription {
+    background-color: var(--Desaturated-Blue);
+    color: var(--white);
+}
+
+#subscription p {
+    color: var(--white);
+}
+
+#subscription button {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: left;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--white);
+    
+    
+}
+
+footer li a {
+    
+    color: var(--Light-Gray);
+    font-weight: 500;
+}
+
+footer li {
+    list-style: none;
+    margin: 10px 0;
+}
+footer ul {
+    padding: 0;
+    
+}
+
+
+
+li a img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-icons {
+    color: var(--Light-Gray);
+    text-align: center;
+}
+
+#twitter {
+    margin: 0 20px;
+    
+    
+}
+
+#fb, #twitter, #insta {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid var(--Light-Gray);
+    border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width: 767px){
+ 
+
+    #features {
+       background-image: url('images/bg-curve-mobile.svg');
+       background-position: top;
+       padding-top: 50px;
+        background-size: 100%;  
+        background-repeat: no-repeat;  
+      }
+
+      footer div {
+        margin: 40px 0;
+    }
+    
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        text-align: left;
+        margin: 0 auto;
+       
+
+    }
+    .lg-mx-80 {
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
+  
+
+    .lg-my-150 {
+        margin-top: 150px;
+    }
+
+    .lg-mx-40 {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .lg-ml-40 {
+        margin-left: 40px;
+    }
+
+    .lg-mr-40 {
+        margin-right: 40px;
+    }
+
+    .lg-px-80 {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    .lg-p-80 {
+        padding: 80px;
+    }
+
+    .lg-py-100 {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .lg-py-50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mb-50 {
+        margin-bottom: 0;
+    }
+
+  
+    
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    header img {
+        width: inherit;
+        align-self: center;
+    }
+
+    .illustrator img {
+        display: flex;
+        align-items: center;
+    }
+
+    header input[type="email"] {
+        width: 50%;
+    }
+
+    header button[type="submit"] {
+        width: 30%;
+    }
+
+
+    .feature-wrap  {
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        margin-left: 0;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .testimonial-card p {
+        font-size: 16px;
+    }
+
+    #features {
+        background-image: url('images/bg-curve-desktop.svg');
+        background-position: top;
+        padding-top: 100px;
+         background-size: 100%;  
+         background-repeat: no-repeat;  
+    }
+
+    #subscription {
+        display: flex;
+
+    }
+
+    form button[type="submit"] {
+        width: 200px;
+    }
+
+    .footer-wrap {
+        display: grid;
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr minmax(0, 2fr));
+        
+        grid-template-areas: 
+           
+            "mobile about contact icons"
+        ;
+        gap: 1rem;
+    }
+
+   
+
+    .mobile {
+        grid-area: "mobile";
+    }
+
+    .about {
+        grid-area: 'about';
+    }
+
+    .contact {
+        grid-area: "contact";
+    }
+
+    .footer-icons {
+        grid-area: "footer-icons";
+        align-self: center;
+    }
+
+    footer div {
+        margin: 0;
+    }
+
+
+
+
+
+}
+
